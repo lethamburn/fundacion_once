@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        placeholder="Inserta tu nombre..."
+        id="username"
+        required
+      />
+      <label for="password">Password:</label>
+      <input type="password" id="password" maxlength="12" minlength="8" />
+      <input type="number" min="18" max="130" />
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <input type="radio" />
+        <input type="checkbox" checked />
+        <input type="color" />
+        <input type="file" />
+      </fieldset>
+      <input type="date" />
+      <textarea>Describete a ti mismo</textarea>
+      <input type="range" min="0" max="100" step="10" />
+      <input type="submit" value="Enviar" />
+      <select name="sabores">
+        <option value="null">-</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="vainilla">Vainilla</option>
+        <option value="fresa">Fresa</option>
+      </select>
+      <select name="ciudad">
+        <optgroup label="Europa">
+          <option>Madrid</option>
+          <option>Londres</option>
+          <option>Paris</option>
+        </optgroup>
+        <optgroup label="Suramerica">
+          <option>Santiago</option>
+          <option>Sao Paulo</option>
+          <option>Lima</option>
+          <option>Bogota</option>
+        </optgroup>
+        <optgroup label="Africa">
+          <option>Casablanca</option>
+          <option>Ciudad del Cabo</option>
+        </optgroup>
+      </select>
+      <input type="text" list="items" />
+      <datalist id="items">
+        <option value="null">-</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="vainilla">Vainilla</option>
+        <option value="fresa">Fresa</option>
+      </datalist>
+    </form>
+  </body>
+</html>
