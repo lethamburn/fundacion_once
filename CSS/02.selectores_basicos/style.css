@@ -1,0 +1,36 @@
+/* SELECTORES */
+
+/* Selector de tipo o etiqueta */
+h1 {
+  color: orange;
+}
+
+/* Selector por clase */
+.mueble {
+  color: brown;
+  font-weight: 900;
+}
+
+/* Selector por id */
+#raton {
+  color: blue;
+}
+
+/* Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector por atributo */
+a[href="www.google.com"] {
+  color: orange;
+}
+
+a[href="www.instagram.com"] {
+  color: pink;
+}
+
+a[href="www.wikipedia.com"] {
+  color: blue;
+}

@@ -1,0 +1,24 @@
+/* Selector de hermanos adyacentes */
+h1 + p {
+  color: red;
+}
+
+/* Selector general de hermanos adyacentes */
+h2 ~ p {
+  color: blue;
+}
+
+/* Combinador de hijos */
+a > img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Combinador general de descendientes */
+/* ul > li > p {
+  color: orange;
+} */
+
+ul p {
+  color: orange;
+}
