@@ -1,0 +1,22 @@
+/* h2::before {
+  content: "👾";
+  padding-right: 10px;
+} */
+
+h2::after {
+  content: "🥸";
+  padding-left: 10px;
+}
+
+h2::first-letter {
+  color: green;
+  font-size: 40px;
+}
+
+p::first-line {
+  color: orange;
+}
+
+input::placeholder {
+  color: orange;
+}

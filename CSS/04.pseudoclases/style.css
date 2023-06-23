@@ -1,0 +1,66 @@
+button:active {
+  background-color: orange;
+}
+
+a:any-link {
+  color: crimson;
+}
+
+input:checked + label {
+  color: crimson;
+}
+
+button:disabled {
+  filter: opacity(60%) invert(100%);
+}
+
+.xmen > li:first-child {
+  color: rgb(255, 178, 35);
+}
+
+.xmen > li:last-child {
+  color: blue;
+}
+
+input:focus {
+  background-color: orange;
+  outline: 2px solid red;
+  border: none;
+}
+
+.box {
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+}
+
+.box:hover {
+  background-color: green;
+  width: 110px;
+  height: 110px;
+}
+
+input:invalid {
+  color: red;
+  text-transform: uppercase;
+}
+
+a:link {
+  color: green;
+}
+
+section > :not(h3) {
+  color: orange;
+}
+
+.comida > :nth-child(even) {
+  color: crimson;
+}
+
+.comida > :nth-child(odd) {
+  color: orange;
+}
+
+input:read-only {
+  background-color: grey;
+}
