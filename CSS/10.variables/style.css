@@ -1,0 +1,20 @@
+:root {
+  --primary: #232946;
+  --secondary: #e78e12;
+  --tertiary: #939393;
+  --heading-size: 25px;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--tertiary);
+}
+
+h1 {
+  color: var(--secondary);
+  font-size: var(--heading-size);
+}
+
+p {
+  color: var(--tertiary);
+}
