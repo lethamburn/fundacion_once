@@ -1,0 +1,86 @@
+:root {
+  --primary: rgb(52, 52, 52);
+  --secondary: rgb(222, 222, 222);
+  --tertiary: rgb(162, 162, 162);
+  font-family: "Helvetica", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+header {
+  background-color: orange;
+  padding: 20px;
+}
+
+header > img {
+  height: 80px;
+  width: auto;
+  /* Cuando activamos display block podemos aplicarle el margen automatico por los lados */
+  display: block;
+  margin: 10px auto;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+nav > ul > li {
+  display: inline;
+  padding: 0 6px;
+}
+
+nav > ul {
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  background-color: var(--secondary);
+  color: var(--primary);
+  padding: 10px;
+}
+
+main > ul {
+  text-align: center;
+}
+
+main > ul > li {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+main figure img {
+  width: 240px;
+  height: auto;
+  box-shadow: rgba(38, 57, 77, 0.733) 0px 20px 30px -10px;
+}
+
+main figure figcaption {
+  margin-top: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
