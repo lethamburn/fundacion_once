@@ -1,0 +1,105 @@
+:root {
+  --primary: #141414;
+  --secondary: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+header {
+  height: 100vh;
+  background-image: url(./assets/images/banner.png);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 20px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.806) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+nav > ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav > img {
+  height: 60%;
+  width: auto;
+}
+
+.banner-title {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+}
+
+.banner-title > div {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+section {
+  padding: 20px;
+}
+
+section > h2::after {
+  content: "⟩";
+  padding-left: 10px;
+}
+
+section > ul {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+}
