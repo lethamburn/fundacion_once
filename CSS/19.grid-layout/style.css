@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: crimson;
+  grid-area: cabecera;
+}
+
+main {
+  background-color: cadetblue;
+  grid-area: principal;
+}
+
+section {
+  background-color: violet;
+  grid-area: seccion;
+}
+
+footer {
+  background-color: orange;
+  grid-area: pie;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows:
+    200px
+    1fr
+    200px;
+  grid-template-areas:
+    "cabecera cabecera cabecera"
+    "principal principal principal"
+    "pie pie pie";
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  body {
+    grid-template-areas:
+      "cabecera cabecera cabecera"
+      "principal principal seccion"
+      "pie pie pie";
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  body {
+    grid-template-areas:
+      "cabecera cabecera seccion"
+      "principal principal seccion"
+      "pie pie pie";
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows:
+      100px
+      1fr
+      100px;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  body {
+    grid-template-areas:
+      "cabecera cabecera seccion"
+      "principal principal seccion"
+      "pie pie seccion";
+
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows:
+      100px
+      1fr
+      100px;
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  gap: 10px;
+  padding: 10px;
+}
+
+section > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section > img:nth-child(1) {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
