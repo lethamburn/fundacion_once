@@ -1,0 +1,68 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*ESTILOS GLOBALES*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: orangered;
+}
+
+/* MAQUETACION GLOBAL DE NAV */
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav > ul {
+  display: flex;
+  gap: 10px;
+}
+
+/* Ocultamos por defecto el menú hamburguesa*/
+label {
+  display: none;
+}
+
+/* Ocultamos también el input para hacer click en el menú hamburgesa sin que se vea el checkbox*/
+input {
+  display: none;
+}
+
+/* Cuando tenemos como máximo 600px de ancho en pantalla, hacemos que aparezca el menú hamburguesa y ocultamos el menú de links*/
+@media screen and (max-width: 600px) {
+  label {
+    display: flex;
+    font-size: 30px;
+  }
+
+  nav > ul {
+    display: none;
+  }
+
+  /*Cuando el checkbox esté checked, lo que vamos a mostrar es el ul que por defecto está oculto. Este checkbox lo estamos pulsando a través de su label que es el icono de la hamburguesa*/
+  #hamburger:checked ~ ul {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Mas ejemplos de menus hamburguesa con CSS https://alvarotrigo.com/blog/hamburger-menu-css/ */
