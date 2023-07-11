@@ -1,0 +1,49 @@
+:root {
+  --primary: rgb(26, 26, 26);
+  --secondary: rgb(227, 227, 227);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+header > img {
+  height: 100px;
+  width: auto;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  width: 400px;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
