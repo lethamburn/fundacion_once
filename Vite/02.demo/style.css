@@ -1,0 +1,35 @@
+:root {
+  --primary: #fbfbfb;
+  --secondary: #0a325c;
+  --tertiary: #d9242c;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--tertiary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+li {
+  list-style-type: none;
+}

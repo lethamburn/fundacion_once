@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+  height: 12vh;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+}
