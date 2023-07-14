@@ -1,0 +1,34 @@
+main {
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main > section {
+  display: flex;
+  gap: 20px;
+}
+
+main img {
+  height: 80px;
+  width: auto;
+  filter: brightness(120%);
+  transition: 0.2s ease-in-out;
+}
+
+#rock-btn{
+  /* EFECTO ESPEJO PORQUE EL PULGAR LO QUERIA ESTA GENTE ARRIBA */
+  transform:scaleX(-1);
+}
+
+main img:hover {
+  transform: scale(1.2) rotate(15deg);
+}
+
+main button {
+  border: none;
+  background-color: transparent;
+}
