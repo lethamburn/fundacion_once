@@ -1,0 +1,26 @@
+.temperature {
+  color: var(--primary);
+  font-size: 140px;
+  font-weight: 900;
+}
+
+h5{
+  font-size: 26px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#realtime-data{
+  background: rgba(255, 255, 255, 0.432);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 40px;
+}
+
+#realtime-data *{
+  text-shadow: 2px 2px 2px #0000004f;
+}

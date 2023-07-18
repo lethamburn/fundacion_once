@@ -1,0 +1,29 @@
+header {
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  
+}
+
+header img {
+  height: 80px;
+  width: auto;
+  filter: invert(100%);
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+}
+
+header a:hover {
+  color: var(--secondary);
+}
+
+@media screen and (max-width: 650px) {
+  header h1 {
+    display: none;
+  }
+}
