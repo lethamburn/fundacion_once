@@ -1,0 +1,19 @@
+button {
+  background-color: rgb(21, 21, 21);
+  padding: 5px 15px;
+  color: whitesmoke;
+  border-radius: 20px;
+  border: 1px solid rgb(21, 21, 21);
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: rgb(21, 21, 21);
+}
+
+.btn-warning{
+  background-color: orange;
+  color: rgb(21, 21, 21);
+}
