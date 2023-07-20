@@ -1,0 +1,37 @@
+main .portrait {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+main {
+  gap: 20px;
+}
+
+main p {
+  width: 80%;
+  text-align: justify;
+}
+
+main details {
+  width: 80%;
+}
+
+main details p {
+  width: 100%;
+  padding-top: 10px
+}
+
+details > summary:first-of-type {
+  list-style:none;
+}
+
+details[open] > summary:first-of-type {
+  list-style-type: none;
+}
+
+details > summary::before{
+  content: "⩥";
+  padding-right: 10px;
+}

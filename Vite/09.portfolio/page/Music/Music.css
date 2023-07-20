@@ -1,0 +1,24 @@
+#music-container {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#music-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#music-container li {
+  text-align: center;
+}
+
+#music-container h3 {
+  font-size: 15px;
+}
+
+#music-container h4 {
+  font-size: 12px;
+}

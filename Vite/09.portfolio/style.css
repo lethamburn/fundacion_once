@@ -1,0 +1,66 @@
+:root {
+  --primary: #f9f4ef;
+  --secondary: #020826;
+  --tertiary: #716040;
+  font-family: "Lunasima", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--tertiary);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lumanosimo", cursive;
+  color: var(--secondary);
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--tertiary);
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main > *{
+  animation: fadeIn 0.5s;
+}
+
+em {
+  font-family: "Lumanosimo", cursive;
+  font-size: 14px;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0
+  }
+
+  100%{
+    opacity: 1
+  }
+}

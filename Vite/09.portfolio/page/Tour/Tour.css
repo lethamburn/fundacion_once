@@ -1,0 +1,14 @@
+#tour-container {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  text-align: center;
+}
+
+#tour-container li{
+  padding: 10px 0
+}
+
+#tour-container li:nth-child(1), #tour-container li:nth-child(2), #tour-container li:nth-child(5), #tour-container li:nth-child(6), #tour-container li:nth-child(9),
+#tour-container li:nth-child(10) {
+  background-color: rgba(234, 234, 234, 0.649);
+}

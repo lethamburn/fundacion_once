@@ -1,0 +1,29 @@
+header a {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#home-link{
+  position:fixed;
+  top: 20px;
+  left: 20px;
+}
+
+#about-link{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#music-link{
+  position:fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+#tour-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
