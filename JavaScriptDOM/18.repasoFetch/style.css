@@ -1,0 +1,58 @@
+:root {
+  --primary: #f9fdfd;
+  --secondary: #971e21;
+  --tertiary: black;
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--tertiary);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+}
+
+header {
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
+}
+
+main img{
+  width: 100%;
+  height: auto;
+  filter: hue-rotate(450deg)
+}
