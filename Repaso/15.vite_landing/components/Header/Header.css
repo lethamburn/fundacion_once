@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px dashed var(--secondary)
+}
+
+header > h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+header > h2 {
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: 4px;
+}

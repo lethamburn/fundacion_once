@@ -1,0 +1,31 @@
+main {
+  min-height: 80vh;
+}
+
+main > h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+main ul li {
+  padding: 15px;
+  text-align: center;
+}
+
+main ul img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+}
+
+main li:nth-child(4) > img,
+main li:nth-child(5) > img {
+  transform: rotateY(180deg);
+}
