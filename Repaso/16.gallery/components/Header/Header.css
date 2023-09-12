@@ -1,0 +1,12 @@
+header{
+  height: 14vh;
+  display:flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 20px;
+}
+
+header > img{
+  height: 50%;
+  width: auto;
+}
