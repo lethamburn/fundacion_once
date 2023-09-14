@@ -1,0 +1,10 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero > p {
+  border: 1px dashed var(--primary);
+  padding: 10px;
+}
