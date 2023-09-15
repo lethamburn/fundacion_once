@@ -1,0 +1,11 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+header > span{
+  font-size:45px
+}
