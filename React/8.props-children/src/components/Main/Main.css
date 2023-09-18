@@ -1,0 +1,8 @@
+main >ul{
+  display:flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+  list-style: none;
+}

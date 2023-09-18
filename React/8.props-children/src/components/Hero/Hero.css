@@ -1,0 +1,22 @@
+.hero {
+  height: 250px;
+  overflow: hidden;
+}
+
+.hero > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  animation: zoomOut 1s;
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(2.2);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

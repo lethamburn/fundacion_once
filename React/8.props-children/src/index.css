@@ -1,0 +1,16 @@
+:root {
+  --primary: #7cd2bb;
+  --secondary: #4b0082;
+  font-family: "Mooli", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--primary);
+}

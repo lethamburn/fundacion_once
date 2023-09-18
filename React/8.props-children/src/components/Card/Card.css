@@ -1,0 +1,9 @@
+main > ul > li > img {
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+}
+
+main > ul > li{
+  width: 300px;
+}

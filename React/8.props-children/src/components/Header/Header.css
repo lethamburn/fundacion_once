@@ -1,0 +1,14 @@
+header {
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+header > img {
+  height: 80%;
+  width: auto;
+  filter: invert();
+}
