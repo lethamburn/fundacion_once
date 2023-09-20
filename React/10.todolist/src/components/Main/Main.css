@@ -1,0 +1,21 @@
+main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main > .form{
+  display:flex;
+  gap: 10px;
+}
+
+main li{
+  list-style-type: none;
+}
+
+main li::before{
+  content: "☑";
+  padding-right: 5px;
+}
