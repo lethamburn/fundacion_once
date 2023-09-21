@@ -1,0 +1,22 @@
+.dinosaurs-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 40px;
+}
+
+.dinosaurs-gallery > li {
+  border: 1px dashed black;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+input {
+  width: 400px;
+  padding: 8px;
+  margin: 10px auto;
+  display: block;
+
+}

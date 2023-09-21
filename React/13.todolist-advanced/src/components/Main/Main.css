@@ -1,0 +1,33 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+main > div {
+  display: flex;
+  gap: 10px;
+}
+
+main li {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+main li button {
+  background-color: transparent;
+  border: none;
+}
+
+.completed::before {
+  content: "✔";
+  padding-right:10px;
+  color: crimson
+}
+
+main h3{
+  cursor: pointer;
+}
