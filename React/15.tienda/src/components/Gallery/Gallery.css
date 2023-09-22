@@ -1,0 +1,41 @@
+main > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+}
+
+main li {
+  display: flex;
+  flex-direction: column;
+}
+main > ul img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding: 3px;
+  background-color: var(--secondary);
+}
+
+main button {
+  background-color: var(--secondary);
+  padding: 6px;
+  color: var(--primary);
+  border: none;
+  height: 30px;
+}
+
+.cart {
+  min-height: 200px;
+  padding: 40px;
+}
+
+h2{
+  text-align: center;
+}
+
+input{
+  display:block;
+  margin: 10px auto;
+}

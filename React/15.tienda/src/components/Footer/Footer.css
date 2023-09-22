@@ -1,0 +1,5 @@
+footer {
+  height: 8vh;
+  display: grid;
+  place-items: center;
+}
