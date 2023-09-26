@@ -1,0 +1,10 @@
+p {
+  padding: 40px;
+  margin: 20px;
+  border: grey 1px solid;
+}
+
+p.dark {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
