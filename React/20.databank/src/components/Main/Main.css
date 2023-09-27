@@ -1,0 +1,48 @@
+main {
+  min-height: calc(100vh - 120px - (20px * 3));
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.btns > button {
+  padding: 4px 6px;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  transition: 0.4s;
+}
+
+.btns > button:hover {
+  filter: opacity(60%);
+}
+
+.btns > button:disabled {
+  opacity: 20%;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  animation: rotate infinite linear 2s;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 200px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

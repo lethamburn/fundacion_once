@@ -1,0 +1,25 @@
+:root {
+  --primary: rgb(15, 15, 15);
+  --secondary: rgb(242, 242, 242);
+  --tertiary: #b5b7b7;
+  font-family: "Helvetica", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+p {
+  color: var(--tertiary);
+}
+
+ul {
+  list-style-type: none;
+}
