@@ -1,0 +1,11 @@
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header > nav > ul{
+  display:flex;
+  gap: 20px
+}
