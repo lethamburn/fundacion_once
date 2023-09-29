@@ -1,0 +1,41 @@
+:root {
+  --primary: black;
+  --secondary: white;
+  --tertiary: #b5b7b7;
+  font-family: "Helvetica", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--secondary);
+  background-color: var(--primary);
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_v2_96b6d74a.jpeg?region=0%2C0%2C2048%2C1600);
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover,
+.active {
+  color: var(--secondary);
+}
+
+main {
+  min-height: calc(100vh - 150px - 80px);
+}

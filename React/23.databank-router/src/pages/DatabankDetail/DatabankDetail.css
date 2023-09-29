@@ -1,0 +1,15 @@
+.databankDetail > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  text-align: justify;
+}
+
+.databankDetail img {
+  width: 60%;
+}

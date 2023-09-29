@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home > video {
+  width: 70%;
+}
