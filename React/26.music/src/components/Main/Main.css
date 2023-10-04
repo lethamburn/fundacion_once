@@ -1,0 +1,23 @@
+main {
+  min-height: calc(100vh - 90px - 40px);
+  padding: 40px;
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%s;
+}
+main > div > section {
+  display: flex;
+  gap: 10px;
+}

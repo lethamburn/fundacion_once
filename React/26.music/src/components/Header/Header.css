@@ -1,0 +1,26 @@
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header > div {
+  display: flex;
+  gap: 10px;
+}
+
+header input,
+header button {
+  padding: 5px 14px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  transition: 0.4s;
+}
+
+header button:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
