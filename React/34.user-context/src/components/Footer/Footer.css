@@ -1,0 +1,5 @@
+footer {
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
