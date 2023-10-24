@@ -1,0 +1,21 @@
+{
+  "name": "01.webscrapping",
+  "version": "1.0.0",
+  "description": "Automatizacion de tareas con Node y Puppeteer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "puppeteer",
+    "scrapping"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "puppeteer": "^21.4.1"
+  }
+}
