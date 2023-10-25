@@ -1,0 +1,13 @@
+{
+  "name": "04.tobase64",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tobase": "node tobase.js",
+    "toimage": "node toimage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proyecto de prueba",
+  "main": "index.js",
+  "scripts": { "dev": "node index.js" },
+  "keywords": [],
+  "author": "Antonio Rosales",
+  "license": ""
+}
