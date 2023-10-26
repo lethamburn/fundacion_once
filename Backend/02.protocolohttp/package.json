@@ -1,0 +1,12 @@
+{
+  "name": "02.protocolohttp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Antonio Rosales Martínez <antoniorosalesmartinez90@gmail.com>",
+  "license": "MIT"
+}
