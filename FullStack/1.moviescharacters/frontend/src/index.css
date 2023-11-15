@@ -1,0 +1,25 @@
+:root {
+  --primary: #999fa3;
+  --secondary: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+a {
+  color: var(--primary);
+}
+
+main {
+  min-height: calc(100vh - 90px - 50px);
+}

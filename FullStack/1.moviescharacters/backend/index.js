@@ -10,9 +10,15 @@ const { configCloudinary } = require("./src/middlewares/files.middleware");
 const server = express();
 connect();
 configCloudinary();
-server.use(cors());
+
 server.use(express.json());
 server.use(express.urlencoded({ extended: false }));
+
+server.use(
+  cors({
+    origin: ["http://localhost:5173/register", "http://localhost:5173/", "http://localhost:5173"],
+  })
+);
 
 //Routes
 const CharacterRouter = require("./src/api/routes/character.routes");

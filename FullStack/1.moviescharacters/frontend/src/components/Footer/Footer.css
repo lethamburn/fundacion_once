@@ -1,0 +1,6 @@
+footer{
+  height: 50px;
+  width: auto;
+  display:grid;
+  place-items: center;
+}
