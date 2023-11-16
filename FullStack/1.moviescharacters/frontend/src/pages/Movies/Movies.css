@@ -1,0 +1,9 @@
+.movies img{
+  width: 200px;
+}
+
+.movies ul{
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

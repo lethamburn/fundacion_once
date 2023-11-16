@@ -14,7 +14,7 @@ const register = async (req, res, next) => {
     user.password = null;
     return res.status(201).json(user);
   } catch (error) {
-    return res.status(500).json("Error registering user", error);
+    return next(new Error("Error registering user"));
   }
 };
 
@@ -33,10 +33,10 @@ const login = async (req, res, next) => {
         token: token,
       });
     } else {
-      return res.status(500).json("Password incorrect", error);
+      return next(new Error("Password incorrect"));
     }
   } catch (error) {
-    return res.status(500).json("Failed login", error);
+    return next(new Error("Failed login"));
   }
 };
 

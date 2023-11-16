@@ -1,17 +1,19 @@
 import "./Characters.css";
 import { useState, useEffect } from "react";
+import API from "../../services/API";
+
 const Characters = () => {
   const [characters, setCharacters] = useState([]);
 
   const getCharacters = async () => {
-    const data = await fetch("http://localhost:8080/characters");
-    const dataJSON = await data.json();
-    setCharacters(dataJSON);
+    const result = await API.get("/characters");
+    setCharacters(result.data);
   };
 
   useEffect(() => {
-    getCharacters();
+    getCharacters()
   }, []);
+
   return (
     <main>
       <ul>
