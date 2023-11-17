@@ -1,0 +1,28 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.register > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px dashed var(--tertiary);
+}
+
+.register #avatar {
+  display: none;
+}
+
+.register .upload {
+  border: 1px solid var(--tertiary);
+  border-radius: 3px;
+  color: var(--tertiary);
+  font-size: 12px;
+  padding: 1px;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul{
+  display:flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar{
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}

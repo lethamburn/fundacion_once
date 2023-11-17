@@ -1,0 +1,10 @@
+.movies ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.movies img{
+  width: 200px;
+  height: 310px;
+  object-fit: cover;
+}
