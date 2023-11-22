@@ -16,7 +16,7 @@ server.use(express.urlencoded({ extended: false }));
 
 server.use(
   cors({
-    origin: ["http://localhost:5173/register", "http://localhost:5173/", "http://localhost:5173"],
+    origin: ["http://localhost:5173"],
   })
 );
 
