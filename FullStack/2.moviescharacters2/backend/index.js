@@ -29,7 +29,7 @@ const UserRouter = require("./src/api/routes/user.routes");
 server.use("/users", UserRouter);
 
 server.use("*", (req, res, next) => {
-  return res.status(404).json("Route not found");
+  return res.status(404).json("Ruta no encontrada");
 });
 
 const PORT = process.env.PORT;
